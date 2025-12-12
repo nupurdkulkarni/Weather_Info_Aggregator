@@ -8,7 +8,8 @@ This project presents a robust and asynchronous solution for gathering real-time
 
 ## ⚙️ Setup and Installation
 
-This project uses **`uv`** for dependency management and ensures the correct installation of the `browser-use` library and its required browser environment.
+This project uses **`uv`** for dependency management and ensures the correct installation of the [`browser-use`] (https://github.com/browser-use/browser-use/tree/main) library
+ and its required browser environment.
 
 ### 1. Initialize and Install Dependencies
 
@@ -34,7 +35,7 @@ Create a `.env` file in your project root:
 BROWSER_USE_API_KEY=your-key
 ```
 
-You can get your key from Browser Use Cloud.
+You can get your key from [Browser Use Cloud](https://cloud.browser-use.com/).
 
 ---
 
