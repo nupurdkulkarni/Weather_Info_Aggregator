@@ -56,7 +56,7 @@ uv run main.py
 
 ---
 
-## 🚀 Architectural Flow
+## Architectural Flow
 
 The application executes in a clear, three-stage pipeline:
 
@@ -64,8 +64,8 @@ The application executes in a clear, three-stage pipeline:
 
 ### 1. Concurrent Data Fetching (`get_city_weather`)
 
-- A `browser-use` Agent is assigned a strict task:  
-  **Search for the weather of a specific city and return the result ONLY in a JSON format.**
+- A `browser-use` Agent is assigned a task:  
+  **Search for the weather of a specific city and return the weather information ONLY in a JSON format.**
 
 - `asyncio.gather` launches all city requests **in parallel**, drastically improving speed.
 
